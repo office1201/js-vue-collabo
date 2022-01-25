@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* 1000~1200 desktop max-width */
+.container {
+  max-width: 1200px;
+  margin: 0 15px;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #41b883;
+  color: #eee;
+}

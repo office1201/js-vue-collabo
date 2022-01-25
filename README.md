@@ -1,1 +1,1 @@
-### js vue collabo
+### js vue collaboration
