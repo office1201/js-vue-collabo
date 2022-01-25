@@ -29,3 +29,32 @@ header {
   background-color: #41b883;
   color: #eee;
 }
+
+input[type='text'] {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+}
+
+form {
+  position: relative;
+}
+.btn-reset {
+  padding: 2px 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #eee;
+  color: #ccc;
+}
+.btn-reset {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.btn-reset::before {
+  content: 'X';
+}
