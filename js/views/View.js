@@ -9,7 +9,7 @@ export default {
   },
   /* 동작 */
   on(event, handler) {
-    this.el.addEventListener(event, () => handler);
+    this.el.addEventListener(event, handler);
     return this;
   },
   /* 방출 */
